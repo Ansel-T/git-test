@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 wo shi master branch 
 wo shi dev branch
+=======
+wo shi dev branch
+add 'dev content'
+>>>>>>> dev

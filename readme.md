@@ -1,6 +1,9 @@
 # git 使用
-    - 常用命令
-    ```
+
+- 常用命令
+
+```
+
         git init              初始化本地git仓库
         git config --global user.name "xxx"               配置用户名
         git config --global user.email "xxx@xxx.com"      配置邮件
@@ -16,5 +19,30 @@
         git branch -d [name]  删除分支
         git push 远程仓库地址 --delete [分支名称]           删除远程分支
 
-    ```
+```
+
 # 解决合并分支冲突
+
+# 解决往github上提交代码成功，格子不高亮
+
+往github上提交代码成功后，进入github上可以看到提交的代码，但是却一直没有显示绿点，是因为本地Git的配置邮箱和github上面的邮箱不一致。
+
+- 查看本地邮箱
+
+```
+git config user.email
+
+```
+
+得到你本地配置的邮箱，如果和你GitHub上的邮箱不一致，修改一下
+
+- 更改本地邮箱配置
+
+```
+git config –global user.email [email] 
+
+```
+
+和Github上保持一致
+
+- 再次提交代码查看，格子就高亮显示。

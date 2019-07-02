@@ -46,3 +46,20 @@ git config –global user.email [email]
 和Github上保持一致
 
 - 再次提交代码查看，格子就高亮显示。
+
+# 查看和修改远程地址
+
+- git remote -v 
+
+```shell
+git remote -v 
+```
+
+- git remote set-url origin \[newUrl\]
+
+```shell
+git remote set-rul origin https://github.com/*****/***
+```
+
+
+
